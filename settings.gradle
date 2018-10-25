@@ -1,0 +1,6 @@
+include 'goods'
+include 'order'
+include 'payment'
+include 'user'
+include 'bff'
+include 'shared'

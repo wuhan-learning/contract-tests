@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: bff
+  cloud:
+    config:
+      enabled: false
+      discovery:
+        enabled: false
+stubrunner:
+  ids:
+    - com.otr.wuhan.learning:user:0.0.1-SNAPSHOT
+  idsToServiceIds:
+    user: user-service
+  workOffline: false
